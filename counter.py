@@ -2,9 +2,10 @@ from pynput import keyboard
 import time as t
 from pywinauto import Application
 from pywinauto.keyboard import SendKeys
+#Use Discord PTB for this process
 
 NUM = 0
-app = Application().connect(process=10520)
+app = Application().connect(process=4648)
 
 def on_press_start(key):
     if key == keyboard.Key.f10:
