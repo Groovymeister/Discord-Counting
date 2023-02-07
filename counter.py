@@ -5,7 +5,7 @@ from pywinauto.keyboard import SendKeys
 #Use Discord PTB for this process
 
 NUM = 0
-app = Application().connect(process=4648)
+app = Application().connect(process=15032)
 
 def on_press_start(key):
     if key == keyboard.Key.f10:
